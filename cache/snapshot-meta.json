@@ -1,0 +1,11 @@
+{
+  "norewrite": [],
+  "deferred": [
+    "./lib/main.js"
+  ],
+  "healthy": [
+    "./lib/filesize.js"
+  ],
+  "deferredHashFile": "yarn.lock",
+  "deferredHash": "24c4349bf35377f2e6276edd1b4539a6d655f9da53cd7a1334d1d344e8fdcf3c"
+}
