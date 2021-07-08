@@ -3,8 +3,19 @@
   "version": "0.0.0",
   "description": "Demonstrating sourcemap issue of snapshot embedded with electron.",
   "main": "main.js",
+  "scripts": {
+    "start": "DEBUG='(packherd|snapgen):*' PROJECT_BASE_DIR=`pwd` electron -r ./lib/hook-require.js ./lib/main.js",
+    "debug": "DEBUG='(packherd|snapgen):*' PROJECT_BASE_DIR=`pwd` electron --inspect-brk -r ./lib/hook-require.js ./lib/main.js",
+    "install-snapshot": "DEBUG='(packherd|snapgen|mksnap):*' node ./scripts/install-snapshot.js",
+    "install-snapshot-full": "DEBUG='(packherd|snapgen|mksnap):*' node ./scripts/install-snapshot-full.js",
+    "uninstall-snapshot": "DEBUG='(packherd|snapgen):*' node ./scripts/uninstall-snapshot.js"
+  },
   "author": "Thorsten Lorenz <thlorenz@gmx.de>",
   "license": "MIT",
   "private": false,
-  "repository": "git@github.com:thlorenz/chrome-embedded-electron-snapshot-sourcemap.git"
+  "repository": "git@github.com:thlorenz/chrome-embedded-electron-snapshot-sourcemap.git",
+  "dependencies": {
+    "electron": "^13.1.6",
+    "v8-snapshot": "^0.5.0"
+  }
 }
