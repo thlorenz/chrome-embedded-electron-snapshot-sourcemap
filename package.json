@@ -1,0 +1,10 @@
+{
+  "name": "chrome-embedded-electron-snapshot-sourcemap",
+  "version": "0.0.0",
+  "description": "Demonstrating sourcemap issue of snapshot embedded with electron.",
+  "main": "main.js",
+  "author": "Thorsten Lorenz <thlorenz@gmx.de>",
+  "license": "MIT",
+  "private": false,
+  "repository": "git@github.com:thlorenz/chrome-embedded-electron-snapshot-sourcemap.git"
+}
