@@ -843,10 +843,10 @@ util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-v8-snapshot@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/v8-snapshot/-/v8-snapshot-0.5.0.tgz#4e760257179da2f1ef50b4ac23201c61180059ec"
-  integrity sha512-F4Lwis8WwFutB8q3HOIdWFtooR066wCMlCwA39SDuB9iWYqAVAUnxybn1xvO8ea8utp6GVj+KvYeb5NRFx8UEA==
+v8-snapshot@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/v8-snapshot/-/v8-snapshot-0.5.1.tgz#79606cfe996f84d14100e1032e910017c62aff56"
+  integrity sha512-6qpwJcJvmQpRaF+ojS+XJutizf8N9KrrE4G6lKA12FjjsXK35WwY/aPMI6WziMHCXh8T6fh3DIFP6T5IjA8cTA==
   dependencies:
     "@thlorenz/electron-mksnapshot" "^0.1.0"
     ansi-colors "^4.1.1"
