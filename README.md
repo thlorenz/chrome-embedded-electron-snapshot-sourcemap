@@ -10,6 +10,25 @@ npm run install-snapshot
 npm run debug
 ```
 
+## Steps on Windows
+
+Four scripts to get up and running in windows (via PowerShell) have been provided.
+
+```
+./scripts/install-and-debug.ps1
+./scripts/install-and-run.ps1
+./scripts/debug.ps1
+./scripts/run.ps1
+```
+
+Thus after running `npm install`, you can run one of the `install-*` scripts to get create the
+snapshot and run the application.
+
+After that either `run.ps1` or `debug.ps1` suffice to run the application with the same
+embedded snapshot again.
+
+## Encountering Issue in DevTools
+
 Once DevTools opens it will break.
 
 _Continue_ and you hit a `debugger` statement. Read the `COMMENT2` above and inspect the
