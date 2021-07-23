@@ -18,6 +18,8 @@ const cacheDir = path.resolve(__dirname, '../cache')
         cacheDir,
         minify: false,
         nodeModulesOnly: false,
+        sourcemapInline: true,
+        sourcemapEmbed: true,
       }
     )
     await snapshotGenerator.createScript()
