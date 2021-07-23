@@ -6,8 +6,7 @@
   "scripts": {
     "start": "DEBUG='(packherd|snapgen):*' PROJECT_BASE_DIR=`pwd` electron -r ./lib/hook-require.js ./lib/main.js",
     "debug": "DEBUG='(packherd|snapgen):*' PROJECT_BASE_DIR=`pwd` electron --inspect-brk -r ./lib/hook-require.js ./lib/main.js",
-    "install-snapshot": "DEBUG='(packherd|snapgen|mksnap):*' SNAPSHOT_BUNDLER=/tmp/not-needed node ./scripts/install-snapshot.js",
-    "install-snapshot-full": "DEBUG='(packherd|snapgen|mksnap):*' node ./scripts/install-snapshot-full.js",
+    "install-snapshot": "DEBUG='(packherd|snapgen|mksnap):*' node ./scripts/install-snapshot.js",
     "uninstall-snapshot": "DEBUG='(packherd|snapgen):*' node ./scripts/uninstall-snapshot.js"
   },
   "author": "Thorsten Lorenz <thlorenz@gmx.de>",
